@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        />
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        />
+
+    <Button
+        android:id="@+id/btnAlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert"
+        />
+
+    <Button
+        android:id="@+id/btnUserProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
+        />
+
+    <Button
+        android:id="@+id/btnListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List"
+        />
+    <Button
+        android:id="@+id/btnCountries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Countries"
+        />
+
+</LinearLayout>
