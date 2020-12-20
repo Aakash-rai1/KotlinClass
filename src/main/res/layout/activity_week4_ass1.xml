@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Week4Ass1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOLIDAY BOOKING"
+        android:gravity="center"
+        android:layout_gravity="start"
+
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+
+    <Spinner
+        android:layout_margin="10dp"
+        android:id="@+id/destinaton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnCheckin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select CheckIn Date"/>
+
+    <TextView
+
+        android:id="@+id/tvCheckin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select CheckOut Date"/>
+
+    <TextView
+        android:id="@+id/tvCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/numadult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. of adults"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/numchild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. of Children"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnbook"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Hotel"/>
+
+
+
+</LinearLayout>
